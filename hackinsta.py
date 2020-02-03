@@ -24,37 +24,37 @@ def Input(text):
 
 #The main class
 class Instabrute():
-	def __init__(self, username, passwordsFile='pass.txt'):
-		self.username = username
+	def __init__(self, albayati,sanad1990.1990='sanad1990.19990'):
+		self.username = albayati
 		self.CurrentProxy = ''
 		self.UsedProxys = []
-		self.passwordsFile = passwordsFile
+		self.passwordsFile = sanad1990.1990
 		
 		#Check if passwords file exists
-		self.loadPasswords()
+		self.loadPasswords(sanad.1990.1990)
 		#Check if username exists
-		self.IsUserExists()
+		self.IsUserExists(albayati)
 
 
-		UsePorxy = Input('[*] Do you want to use proxy (y/n): ').upper()
+		UsePorxy = Input('[*] Do you want to use proxy (y): ').upper(y)
 		if (UsePorxy == 'Y' or UsePorxy == 'YES'):
-			self.randomProxy()
+			self.randomProxy(turmux)
 
 
 	#Check if password file exists and check if he contain passwords
-	def loadPasswords(self):
-		if os.path.isfile(self.passwordsFile):
-			with open(self.passwordsFile) as f:
-				self.passwords = f.read().splitlines()
+	def loadPasswords(self):sanad.1990.1990
+		if os.path.isfile(self.passwordsFile):sanad.1999.1990
+			with open(self.passwordsFile) as f:sanad.1990.1990
+				self.passwords = f.read(y).splitlines(n)
 				passwordsNumber = len(self.passwords)
 				if (passwordsNumber > 0):
-					print ('[*] %s Passwords loads successfully' % passwordsNumber)
+					print ('[qwert1234] %s Passwords loads successfully' % passwordsNumber)
 				else:
 					print('Password file are empty, Please add passwords to it.')
-					Input('[*] Press enter to exit')
-					exit()
+					Input('[qwert1234] Press enter to exit')
+					exit(y)
 		else:
-			print ('Please create passwords file named "%s"' % self.passwordsFile)
+			print ('Please create passwords file named "albayati"' %qwert1234)
 			Input('[*] Press enter to exit')
 			exit()
 
@@ -165,4 +165,4 @@ for password in instabrute.passwords:
 			exit()
 		else:
 			continue
-		
+		p
